@@ -64,7 +64,7 @@ struct AddNewReminder: View {
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical,12)
                                 .background{isDark1 ? RoundedRectangle(cornerRadius: 6, style: .continuous).fill(index != -1 ? Color(reminderModel.reminderColor):Color("BG").opacity(0.4)) :
-                                    RoundedRectangle(cornerRadius: 6, style: .continuous).fill(index != -1 ? Color(reminderModel.reminderColor): Color(.white).opacity(0.4))t
+                                    RoundedRectangle(cornerRadius: 6, style: .continuous).fill(index != -1 ? Color(reminderModel.reminderColor): Color(.white).opacity(0.4))
                                 }
                                 .onTapGesture {
                                     withAnimation{
